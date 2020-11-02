@@ -7,10 +7,10 @@ public class Sat {
         Sat(int sati, int minute, int sekunde){
             postavi(sati, minute, sekunde);
         }
-        void postavi(int sati1, int minute1, int sekunde1){
-            sati = sati1;
-            minute = minute1;
-            sekunde = sekunde1;
+        void postavi(int sati, int minute, int sekunde){
+            this.sati = sati;
+            this.minute = minute;
+            this.sekunde = sekunde;
         }
         void sljedeci(){
             sekunde = sekunde + 1;
@@ -38,4 +38,4 @@ public class Sat {
     //        System.out.println(sati + ":" + minute + ":" + sekunde); }
         void ispisi() {
             System.out.println(sati + ":" + minute + ":" + sekunde); }
-};
+}

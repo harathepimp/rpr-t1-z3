@@ -3,8 +3,8 @@ package ba.bo;
 public class Main {
 
     public static void main(String[] args) {
-    	Sat s;
-		s = new Sat(15, 30, 45);
+    	//Sat s;
+		Sat s = new Sat(15, 30, 45);
 		s.ispisi();
 	    s.sljedeci();
 	    s.ispisi();
